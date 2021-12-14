@@ -1,5 +1,5 @@
 PAS := fpc
-PASFLAGS := -O3
+PASFLAGS := -O3 -Criot -gl
 DEBUG := 0
 
 ifeq ($(DEBUG), 1)
